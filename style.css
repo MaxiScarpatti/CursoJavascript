@@ -10,3 +10,16 @@ div contenedor{
   border-color: black;
   background-color: white;
 }
+
+#btn {
+  margin-top: 1em;
+}
+
+.tarjeta {
+  background-color: lightgrey;
+  margin: 1vh;
+}
+
+#mostrarListado {
+  margin-bottom: 1em;
+}
