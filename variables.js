@@ -40,7 +40,7 @@ function guardarListado (listadoTortas){
   mostrarListado(listadoTortas);
 }
 
-function guardarTorta (elemento) {
+function guardarTorta (e,elemento) {
   e.preventDefault();
   let nombre = document.querySelector("#torta").value;
   let cantidad = document.querySelector("#cantidad").value;
