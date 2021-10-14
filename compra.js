@@ -95,3 +95,13 @@ function procesarCompra() {
     }
 }
 
+//cambio el color del input con Jquery
+$(document).ready(function(){
+	$("input[id=correo]").click(function(){
+    $(correo).css("background-color", "lightskyblue");
+	});
+	$("input[id=cliente]").click(function(){
+		$(cliente).css("background-color", "lightskyblue");
+	});
+});
+
